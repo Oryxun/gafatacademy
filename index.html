@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gafat Academy | Cybersecurity, Networking & Cloud IT Training</title>
+  <meta name="description" content="Gafat Academy offers hands-on, instructor-led IT training in cybersecurity, networking, cloud and IT support. Prepare for CompTIA, Cisco, AWS, Microsoft and (ISC)² certifications.">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===== Top bar ===== -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <span>New cohorts start monthly · Day, evening &amp; weekend classes</span>
+    <div class="topbar-links">
+      <a href="tel:+18006752340">📞 800 675 2340</a>
+      <a href="mailto:Info@gafatacademy.com">✉ Info@gafatacademy.com</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Header ===== -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#home" class="brand" aria-label="Gafat Academy home">
+      <img src="assets/logo.svg" alt="" width="40" height="40">
+      <span class="brand-text">Gafat<span>Academy</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#programs">Programs</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#formats">Training Formats</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#corporate">Corporate</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta">Enroll Now</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="home">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow">IT Career Training · Certification Prep</span>
+      <h1>Launch your career in <span class="highlight" id="typed">Cybersecurity</span></h1>
+      <p class="lead">Hands-on, instructor-led training in cybersecurity, networking, cloud and IT support. Learn in real labs, earn industry certifications, and get job-ready with career coaching from day one.</p>
+      <div class="hero-actions">
+        <a href="#programs" class="btn btn-primary">Explore Programs</a>
+        <a href="#contact" class="btn btn-ghost">Talk to an Advisor</a>
+      </div>
+      <ul class="hero-checks">
+        <li>Live instructors</li>
+        <li>24/7 virtual labs</li>
+        <li>Exam vouchers available</li>
+      </ul>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="terminal">
+        <div class="terminal-bar"><i></i><i></i><i></i><span>gafat-lab:~</span></div>
+        <pre><code><span class="c-prompt">student@gafat</span>:~$ nmap -sV 10.0.0.0/24
+<span class="c-dim">Starting scan... 254 hosts</span>
+<span class="c-ok">22/tcp  open  ssh     OpenSSH 9.6</span>
+<span class="c-ok">443/tcp open  https   nginx</span>
+<span class="c-warn">3389/tcp open ms-wbt  ⚠ exposed</span>
+
+<span class="c-prompt">R1#</span> show ip ospf neighbor
+<span class="c-ok">10.1.1.2  FULL/DR   00:00:38</span>
+
+<span class="c-prompt">student@gafat</span>:~$ <span class="cursor">▋</span></code></pre>
+      </div>
+      <div class="float-card fc-1"><strong>CCNA</strong><span>Lab 12/40 ✓</span></div>
+      <div class="float-card fc-2"><strong>Security+</strong><span>Practice exam 91%</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Partners ===== -->
+<section class="partners" aria-labelledby="partners-title">
+  <div class="container">
+    <p id="partners-title" class="partners-title">We work with industry leaders</p>
+    <ul class="partner-list">
+      <li class="partner">T-Mobile</li>
+      <li class="partner">Oryxun Global</li>
+      <li class="partner">Costco</li>
+      <li class="partner">CISCO</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== Stats ===== -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><span class="stat-num" data-count="40" data-suffix="+">0</span><span class="stat-label">Courses &amp; tracks</span></div>
+    <div class="stat"><span class="stat-num" data-count="25" data-suffix="+">0</span><span class="stat-label">Certifications covered</span></div>
+    <div class="stat"><span class="stat-num" data-count="200" data-suffix="+">0</span><span class="stat-label">Hands-on lab exercises</span></div>
+    <div class="stat"><span class="stat-num" data-count="1" data-prefix="" data-suffix=":1">0</span><span class="stat-label">Career coaching</span></div>
+  </div>
+</section>
+
+<!-- ===== Programs ===== -->
+<section class="section" id="programs">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Programs</span>
+      <h2>Career tracks built for today's IT jobs</h2>
+      <p>Pick a track, learn from working professionals, and build a portfolio of real lab work employers can see.</p>
+    </div>
+
+    <div class="filters" role="tablist" aria-label="Filter programs">
+      <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+      <button class="filter" data-filter="cyber" role="tab" aria-selected="false">Cybersecurity</button>
+      <button class="filter" data-filter="network" role="tab" aria-selected="false">Networking</button>
+      <button class="filter" data-filter="cloud" role="tab" aria-selected="false">Cloud &amp; DevOps</button>
+      <button class="filter" data-filter="support" role="tab" aria-selected="false">IT Support</button>
+    </div>
+
+    <div class="card-grid" id="programGrid">
+
+      <article class="course-card" data-cat="cyber">
+        <div class="course-icon cyber">🛡️</div>
+        <span class="tag">Cybersecurity</span>
+        <h3>Cybersecurity Analyst Bootcamp</h3>
+        <p>Threat detection, SIEM, incident response, vulnerability management and SOC operations.</p>
+        <ul class="meta"><li>16 weeks</li><li>Beginner → Intermediate</li></ul>
+        <div class="certs"><span>Security+</span><span>CySA+</span></div>
+        <a href="#contact" class="card-link" data-course="Cybersecurity Analyst Bootcamp">Request info →</a>
+      </article>
+
+      <article class="course-card" data-cat="cyber">
+        <div class="course-icon cyber">🕵️</div>
+        <span class="tag">Cybersecurity</span>
+        <h3>Ethical Hacking &amp; Penetration Testing</h3>
+        <p>Reconnaissance, exploitation, web app testing, Active Directory attacks and professional reporting.</p>
+        <ul class="meta"><li>12 weeks</li><li>Intermediate</li></ul>
+        <div class="certs"><span>CEH</span><span>PenTest+</span></div>
+        <a href="#contact" class="card-link" data-course="Ethical Hacking & Penetration Testing">Request info →</a>
+      </article>
+
+      <article class="course-card" data-cat="cyber">
+        <div class="course-icon cyber">🏛️</div>
+        <span class="tag">Cybersecurity</span>
+        <h3>Security Leadership &amp; GRC</h3>
+        <p>Risk management, security architecture, governance, compliance frameworks (NIST, ISO 27001).</p>
+        <ul class="meta"><li>8 weeks</li><li>Advanced</li></ul>
+        <div class="certs"><span>CISSP</span><span>CISM</span></div>
+        <a href="#contact" class="card-link" data-course="Security Leadership & GRC">Request info →</a>
+      </article>
+
+      <article class="course-card" data-cat="network">
+        <div class="course-icon network">🌐</div>
+        <span class="tag">Networking</span>
+        <h3>Cisco CCNA Bootcamp</h3>
+        <p>Routing, switching, VLANs, OSPF, IPv6, wireless, security fundamentals and automation basics on real Cisco gear.</p>
+        <ul class="meta"><li>12 weeks</li><li>Beginner → Intermediate</li></ul>
+        <div class="certs"><span>CCNA 200-301</span></div>
+        <a href="#contact" class="card-link" data-course="Cisco CCNA Bootcamp">Request info →</a>
+      </article>
+
+      <article class="course-card" data-cat="network">
+        <div class="course-icon network">🛰️</div>
+        <span class="tag">Networking</span>
+        <h3>CCNP Enterprise</h3>
+        <p>Advanced routing, SD-WAN, enterprise design, network assurance, and programmability.</p>
+        <ul class="meta"><li>14 weeks</li><li>Advanced</li></ul>
+        <div class="certs"><span>ENCOR</span><span>ENARSI</span></div>
+        <a href="#contact" class="card-link" data-course="CCNP Enterprise">Request info →</a>
+      </article>
+
+      <article class="course-card" data-cat="network">
+        <div class="course-icon network">📡</div>
+        <span class="tag">Networking</span>
+        <h3>Network+ &amp; Wireless / 5G Fundamentals</h3>
+        <p>Network infrastructure, troubleshooting, Wi-Fi, LTE/5G concepts and telecom field skills.</p>
+        <ul class="meta"><li>8 weeks</li><li>Beginner</li></ul>
+        <div class="certs"><span>Network+</span></div>
+        <a href="#contact" class="card-link" data-course="Network+ & Wireless / 5G Fundamentals">Request info →</a>
+      </article>
+
+      <article class="course-card" data-cat="cloud">
+        <div class="course-icon cloud">☁️</div>
+        <span class="tag">Cloud &amp; DevOps</span>
+        <h3>AWS &amp; Azure Cloud Engineer</h3>
+        <p>Compute, storage, IAM, networking, cost management and secure architecture on both major clouds.</p>
+        <ul class="meta"><li>12 weeks</li><li>Intermediate</li></ul>
+        <div class="certs"><span>AWS SAA</span><span>AZ-104</span></div>
+        <a href="#contact" class="card-link" data-course="AWS & Azure Cloud Engineer">Request info →</a>
+      </article>
+
+      <article class="course-card" data-cat="cloud">
+        <div class="course-icon cloud">⚙️</div>
+        <span class="tag">Cloud &amp; DevOps</span>
+        <h3>DevOps &amp; Automation</h3>
+        <p>Linux, Git, Docker, Kubernetes, CI/CD pipelines, Terraform and Python scripting for infrastructure.</p>
+        <ul class="meta"><li>14 weeks</li><li>Intermediate</li></ul>
+        <div class="certs"><span>CKA</span><span>Terraform</span></div>
+        <a href="#contact" class="card-link" data-course="DevOps & Automation">Request info →</a>
+      </article>
+
+      <article class="course-card" data-cat="support">
+        <div class="course-icon support">💻</div>
+        <span class="tag">IT Support</span>
+        <h3>IT Support Specialist</h3>
+        <p>Hardware, operating systems, help desk, troubleshooting and customer service — the fastest entry into IT.</p>
+        <ul class="meta"><li>10 weeks</li><li>No experience needed</li></ul>
+        <div class="certs"><span>A+</span></div>
+        <a href="#contact" class="card-link" data-course="IT Support Specialist">Request info →</a>
+      </article>
+
+      <article class="course-card" data-cat="support">
+        <div class="course-icon support">🐧</div>
+        <span class="tag">IT Support</span>
+        <h3>Linux &amp; Windows Server Administration</h3>
+        <p>User management, Active Directory, PowerShell, Bash, services, patching and backup strategies.</p>
+        <ul class="meta"><li>10 weeks</li><li>Beginner → Intermediate</li></ul>
+        <div class="certs"><span>Linux+</span><span>MD-102</span></div>
+        <a href="#contact" class="card-link" data-course="Linux & Windows Server Administration">Request info →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== Certifications ===== -->
+<section class="section section-alt" id="certifications">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Certifications</span>
+      <h2>Prepare for the certifications employers ask for</h2>
+      <p>Every course maps to official exam objectives, with practice tests and exam-voucher options.</p>
+    </div>
+    <div class="cert-grid">
+      <div class="cert"><strong>CompTIA</strong><span>A+ · Network+ · Security+ · CySA+ · PenTest+ · Linux+</span></div>
+      <div class="cert"><strong>Cisco</strong><span>CCNA · CCNP Enterprise · CyberOps Associate</span></div>
+      <div class="cert"><strong>(ISC)² &amp; ISACA</strong><span>CISSP · CC · CISM · CISA</span></div>
+      <div class="cert"><strong>EC-Council</strong><span>CEH · CND</span></div>
+      <div class="cert"><strong>Amazon Web Services</strong><span>Cloud Practitioner · Solutions Architect Associate</span></div>
+      <div class="cert"><strong>Microsoft</strong><span>AZ-900 · AZ-104 · SC-200 · MD-102</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Why Gafat ===== -->
+<section class="section" id="why">
+  <div class="container why-grid">
+    <div>
+      <span class="eyebrow">Why Gafat Academy</span>
+      <h2>Training that gets you hired, not just certified</h2>
+      <p class="muted">We combine certification prep with the practical skills hiring managers actually test for in interviews.</p>
+      <a href="#contact" class="btn btn-primary">Book a free consultation</a>
+    </div>
+    <div class="feature-grid">
+      <div class="feature"><span class="f-ico">🧪</span><h3>Real hands-on labs</h3><p>Cisco routers and switches, virtual SOC, cloud sandboxes and cyber ranges available 24/7.</p></div>
+      <div class="feature"><span class="f-ico">👩‍🏫</span><h3>Expert instructors</h3><p>Learn from certified engineers and security professionals working in the field.</p></div>
+      <div class="feature"><span class="f-ico">🎯</span><h3>Career services</h3><p>Resume reviews, LinkedIn optimization, mock interviews and employer introductions.</p></div>
+      <div class="feature"><span class="f-ico">💳</span><h3>Flexible payment</h3><p>Payment plans, employer sponsorship and workforce-funding options available.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Formats ===== -->
+<section class="section section-dark" id="formats">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Training Formats</span>
+      <h2>Learn the way that fits your life</h2>
+    </div>
+    <div class="format-grid">
+      <div class="format">
+        <h3>Live Online</h3>
+        <p>Interactive virtual classes with a live instructor, recorded sessions and cloud labs.</p>
+        <ul><li>Join from anywhere</li><li>Evening &amp; weekend cohorts</li><li>Session recordings</li></ul>
+      </div>
+      <div class="format featured">
+        <span class="badge">Most popular</span>
+        <h3>Full-Time Bootcamp</h3>
+        <p>Immersive, accelerated programs that take you from beginner to certified and job-ready.</p>
+        <ul><li>Daily instruction</li><li>Capstone project</li><li>Career coaching included</li></ul>
+      </div>
+      <div class="format">
+        <h3>In-Person Classroom</h3>
+        <p>Train side-by-side with peers and instructors on physical equipment in our labs.</p>
+        <ul><li>Physical Cisco rack labs</li><li>Small class sizes</li><li>Study groups</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== How it works ===== -->
+<section class="section" id="steps">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">How it works</span>
+      <h2>Your path from enrollment to employment</h2>
+    </div>
+    <ol class="steps">
+      <li><span>01</span><h3>Talk to an advisor</h3><p>We assess your background and goals and recommend the right track.</p></li>
+      <li><span>02</span><h3>Train hands-on</h3><p>Learn with live instructors and practice daily in real lab environments.</p></li>
+      <li><span>03</span><h3>Get certified</h3><p>Practice exams and review sessions prepare you to pass the first time.</p></li>
+      <li><span>04</span><h3>Land the job</h3><p>Career coaching and employer connections help you take the next step.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== Schedule ===== -->
+<section class="section section-alt" id="schedule">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Upcoming classes</span>
+      <h2>Next cohort start dates</h2>
+      <p>Seats are limited to keep classes small. Contact us to reserve your spot.</p>
+    </div>
+    <div class="table-wrap">
+      <table class="schedule">
+        <thead><tr><th>Course</th><th>Start date</th><th>Format</th><th>Schedule</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Cybersecurity Analyst Bootcamp</td><td>Dec 7, 2026</td><td>Live Online</td><td>Mon–Thu · 6–9 PM</td><td><a href="#contact" class="card-link" data-course="Cybersecurity Analyst Bootcamp">Reserve</a></td></tr>
+          <tr><td>Cisco CCNA Bootcamp</td><td>Dec 14, 2026</td><td>In-Person / Online</td><td>Mon–Fri · 9 AM–3 PM</td><td><a href="#contact" class="card-link" data-course="Cisco CCNA Bootcamp">Reserve</a></td></tr>
+          <tr><td>IT Support Specialist (A+)</td><td>Jan 4, 2027</td><td>Live Online</td><td>Sat–Sun · 9 AM–2 PM</td><td><a href="#contact" class="card-link" data-course="IT Support Specialist">Reserve</a></td></tr>
+          <tr><td>AWS &amp; Azure Cloud Engineer</td><td>Jan 11, 2027</td><td>Live Online</td><td>Tue &amp; Thu · 6–9 PM</td><td><a href="#contact" class="card-link" data-course="AWS & Azure Cloud Engineer">Reserve</a></td></tr>
+          <tr><td>Ethical Hacking &amp; Pen Testing</td><td>Feb 1, 2027</td><td>In-Person / Online</td><td>Mon–Thu · 6–9 PM</td><td><a href="#contact" class="card-link" data-course="Ethical Hacking & Penetration Testing">Reserve</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Corporate ===== -->
+<section class="section" id="corporate">
+  <div class="container corp">
+    <div class="corp-copy">
+      <span class="eyebrow">Corporate Training</span>
+      <h2>Upskill your team with customized training</h2>
+      <p class="muted">We design private, on-site or virtual programs for enterprise IT, network and security teams — aligned to your technology stack and business goals.</p>
+      <ul class="checklist">
+        <li>Custom curriculum and skills assessments</li>
+        <li>On-site, virtual, or blended delivery</li>
+        <li>Group exam vouchers and progress reporting</li>
+        <li>Workforce reskilling and new-hire academies</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary" data-course="Corporate Training">Request a proposal</a>
+    </div>
+    <div class="corp-card">
+      <h3>Trusted by teams at</h3>
+      <div class="corp-logos">
+        <span>T-Mobile</span><span>Oryxun Global</span><span>Costco</span><span>CISCO</span>
+      </div>
+      <p class="muted small">Talk to our corporate team at <a href="tel:+18006752340">800 675 2340</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section section-alt" id="faq">
+  <div class="container narrow">
+    <div class="section-head">
+      <span class="eyebrow">FAQ</span>
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Do I need IT experience to start?</summary><p>No. Our IT Support Specialist and Network+ tracks are designed for complete beginners. An advisor will help you pick the right starting point.</p></details>
+      <details><summary>Are exam vouchers included?</summary><p>Many programs include exam vouchers or offer them as an add-on. Ask an advisor about the specific course you're interested in.</p></details>
+      <details><summary>Can I study while working full-time?</summary><p>Yes. We offer evening and weekend cohorts, and all live sessions are recorded so you can review them anytime.</p></details>
+      <details><summary>What payment options are available?</summary><p>We offer payment plans, employer sponsorship and help with workforce-funding programs where eligible.</p></details>
+      <details><summary>Do you offer job placement help?</summary><p>Every student gets career services: resume and LinkedIn reviews, mock interviews and introductions to hiring partners.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA band ===== -->
+<section class="cta-band">
+  <div class="container cta-inner">
+    <div>
+      <h2>Ready to start your IT career?</h2>
+      <p>Speak with an advisor today — no obligation.</p>
+    </div>
+    <div class="cta-actions">
+      <a href="tel:+18006752340" class="btn btn-light">Call 800 675 2340</a>
+      <a href="#contact" class="btn btn-outline-light">Send a message</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section class="section" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <span class="eyebrow">Contact us</span>
+      <h2>Let's plan your next step</h2>
+      <p class="muted">Fill out the form and an admissions advisor will get back to you within one business day.</p>
+      <div class="contact-item">
+        <span class="ci-ico">✉</span>
+        <div><small>Email</small><a href="mailto:Info@gafatacademy.com">Info@gafatacademy.com</a></div>
+      </div>
+      <div class="contact-item">
+        <span class="ci-ico">📞</span>
+        <div><small>Phone</small><a href="tel:+18006752340">800 675 2340</a></div>
+      </div>
+      <div class="contact-item">
+        <span class="ci-ico">🕘</span>
+        <div><small>Office hours</small><span>Mon–Fri 9 AM – 7 PM · Sat 10 AM – 2 PM</span></div>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="row">
+        <label>First name<input type="text" name="first" required autocomplete="given-name"></label>
+        <label>Last name<input type="text" name="last" required autocomplete="family-name"></label>
+      </div>
+      <div class="row">
+        <label>Email<input type="email" name="email" required autocomplete="email"></label>
+        <label>Phone<input type="tel" name="phone" autocomplete="tel"></label>
+      </div>
+      <label>Program of interest
+        <select name="course" id="courseSelect">
+          <option value="">Select a program…</option>
+          <option>Cybersecurity Analyst Bootcamp</option>
+          <option>Ethical Hacking &amp; Penetration Testing</option>
+          <option>Security Leadership &amp; GRC</option>
+          <option>Cisco CCNA Bootcamp</option>
+          <option>CCNP Enterprise</option>
+          <option>Network+ &amp; Wireless / 5G Fundamentals</option>
+          <option>AWS &amp; Azure Cloud Engineer</option>
+          <option>DevOps &amp; Automation</option>
+          <option>IT Support Specialist</option>
+          <option>Linux &amp; Windows Server Administration</option>
+          <option>Corporate Training</option>
+          <option>Not sure yet</option>
+        </select>
+      </label>
+      <label>Message<textarea name="message" rows="4" placeholder="Tell us about your goals and experience"></textarea></label>
+      <button type="submit" class="btn btn-primary btn-block">Send message</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#home" class="brand brand-light">
+        <img src="assets/logo.svg" alt="" width="36" height="36">
+        <span class="brand-text">Gafat<span>Academy</span></span>
+      </a>
+      <p class="small">Hands-on IT training in cybersecurity, networking, cloud and IT support.</p>
+    </div>
+    <div>
+      <h4>Programs</h4>
+      <a href="#programs">Cybersecurity</a>
+      <a href="#programs">Networking</a>
+      <a href="#programs">Cloud &amp; DevOps</a>
+      <a href="#programs">IT Support</a>
+    </div>
+    <div>
+      <h4>Academy</h4>
+      <a href="#formats">Training formats</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#corporate">Corporate training</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:Info@gafatacademy.com">Info@gafatacademy.com</a>
+      <a href="tel:+18006752340">800 675 2340</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year">2026</span> Gafat Academy. All rights reserved.</span>
+    <span class="small">Certification names are trademarks of their respective owners.</span>
+  </div>
+</footer>
+
+<a href="#home" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
